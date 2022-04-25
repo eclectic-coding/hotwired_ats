@@ -14,6 +14,7 @@ gem "jbuilder"
 gem "redis", "~> 4.0"
 gem "bootsnap", require: false
 gem "stimulus_reflex", "= 3.5.0.pre8"
+gem 'devise', branch: 'rails_7', github: 'DavidColby/devise'
 # gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 group :development, :test do
@@ -29,3 +30,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "inline_svg", "~> 1.8"
